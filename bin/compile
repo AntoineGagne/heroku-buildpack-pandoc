@@ -7,7 +7,7 @@ indent() {
 echo "-----> Installing pandoc"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-PANDOC_DOWNLOAD_URL="https://drive.google.com/open?id=0B3t1hFS_2t57U2RueWFwY0pwTUk"
+PANDOC_DOWNLOAD_URL="https://dl.dropboxusercontent.com/s/mrebw8k9qi3fhyc/pandoc"
 
 echo "PANDOC_DOWNLOAD_URL = " "$PANDOC_DOWNLOAD_URL" | indent
 
